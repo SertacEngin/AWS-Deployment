@@ -54,9 +54,9 @@ app.get("/workshop3", (req, res) => {
 
 const domainURL = process.env.DOMAIN;
 app.post("/create-checkout-session/:pid", async (req, res) => {
-  
+
   const priceId = req.params.pid;
-  
+
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
     success_url: `${domainURL}/success?id={CHECKOUT_SESSION_ID}`,
