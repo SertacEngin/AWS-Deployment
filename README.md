@@ -4,7 +4,7 @@
 
 1. Clone this project
 ```
-git clone https://github.com/verma-kunal/AWS-Session.git
+git clone git clone https://github.com/SertacEngin/AWS-Deployment.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
